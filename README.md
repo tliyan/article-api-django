@@ -47,8 +47,6 @@ There are separate `make` commands to spin up each of the services, as given bel
 # Start Django Service
 ➜  make start-app
 
-docker-compose up article_api
-
 ```
 
 ### Configuring the application
