@@ -1,5 +1,7 @@
 # Simple Article API
 
+![Markdown](https://img.shields.io/badge/python-v3.8.2-yellow)
+
 A simple Article API written using the Django REST Framework with a Postgres database. 
 
 ## Prerequisites
@@ -56,7 +58,7 @@ Once both services have been spun up, there are two configuration tasks that nee
 - Migrating the database models
 - Creating an admin user
 
-These configuration tasks can be both be run using the following `make` command
+These configuration tasks can be both be run (while the server is running) in a new terminal window using the following `make` command
 ```
 ➜  make configure-app
 ```

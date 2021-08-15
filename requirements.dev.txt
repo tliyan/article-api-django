@@ -1,4 +1,4 @@
-black
-pytest
-pytest-django
-pytest-cov
+black==21.7b0
+pytest==6.2.4
+pytest-cov==2.12.1
+pytest-django==4.4.0
