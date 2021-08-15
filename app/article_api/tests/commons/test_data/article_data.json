@@ -1,0 +1,133 @@
+[
+    {
+        "title": "Test Article #1",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": []
+    },
+    {
+        "title": "Test Article #2",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "science",
+            "health",
+            "fitness",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #3",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "science",
+            "health",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #4",
+        "body": "Article created for testing purposes",
+        "date": "2015-12-09",
+        "tags": [
+            "science",
+            "health",
+            "business",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #5",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "sports",
+            "business",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #6",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #7",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "health",
+            "fitness",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #8",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "health",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #9",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "health",
+            "business",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #10",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "business",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #11",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "health",
+            "business",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #12",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "business",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #13",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "food",
+            "finance"
+        ]
+    },
+    {
+        "title": "Test Article #14",
+        "body": "Article created for testing purposes",
+        "date": "2016-12-09",
+        "tags": [
+            "tech",
+            "finance"
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+# VSCode settings
+.vscode/
+
+# Cached files
+__pycache__/
+.pytest_cache/
+
+# Environment files
+.env
+
+# Locally created postgres files
+postgres/
+
+
+# Code Coverage files
+.coverage
+
+# Other
+todo
