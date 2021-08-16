@@ -15,12 +15,16 @@ The application is completely containerised using `Docker/Docker-Compose` and ut
 
 > NOTE: The following tasks assume that you are in the project directory
 
+### Cloning the repository
+```
+➜  git clone https://github.com/tliyan/article-api-django.git
+```
+
 ### Configuring environment files
 
 Templates environment files are provided that lists the various environment variables that are required for each application. This will need to be populated _before_ building and launching the services.
 
-To do this, create a copy of each file in their respective directory, populate the variables accordingly and rename
-both files to `.env`. It is critical they are renamed so that docker-compose can pick up the environment file when
+To do this, create a copy of each file in their respective directory, populate the variables accordingly and rename both files to `.env`. It is critical they are renamed so that docker-compose can pick up the environment file when
 spinning up the container. 
 
 > NOTE: The Postgres environment variables need to be the __same__ across both the app environment file and the postgres environment file to ensure that the Django application can connect to the Postgres instance
@@ -163,4 +167,32 @@ The Django administration portal can be used to view the database entries via an
 Tests can be run using the following `make` command
 ```
 ➜  make test
+```
+
+### Known Issues
+
+#1 Relation does not exist
+```
+relation "article_api_article" does not exist
+```
+
+Cause: Database models have not been migrated properly
+
+Resolution: Make sure the application has been configured using
+
+```
+make configure-app
+```
+
+If this does not resolve it you may need to do a clean and re-build
+```
+➜  make clean
+
+➜  make build
+
+➜  make start-db
+
+➜  make start-app
+
+➜  make configure-app
 ```
