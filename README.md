@@ -1,6 +1,9 @@
 # Simple Article API
 
 ![Markdown](https://img.shields.io/badge/python-v3.8.2-yellow)
+![Markdown](https://img.shields.io/badge/docker-v19.03.8-blue)
+![Markdown](https://img.shields.io/badge/compose-v1.25.5-blue)
+![Markdown](https://img.shields.io/badge/make-v3.81-red)
 
 A simple Article API written using the Django REST Framework with a Postgres database. 
 
