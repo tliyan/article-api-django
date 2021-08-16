@@ -15,6 +15,7 @@ class Tags(APIView):
         serializer.is_valid(raise_exception=True)
 
         # At this point, the date should be valid as we validated this in the serializer
+        # Reference: https://stackoverflow.com/questions/9750330/how-to-convert-integer-into-date-object-python
         formatted_date = datetime.strptime(date, "%Y%m%d")
 
         article_query = Article.objects.filter(
